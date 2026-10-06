@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+
+# personal data, exports and the private dev log stay local
+NOTES.md
+*.json
+*.json.bak
+*.json.tmp
+spisak-final.*
+
+# build output
+build/
+dist/
+*-backups/
+*.damaged
